@@ -6,7 +6,8 @@ app.use(express.json());
 
 app.get('/', (_req,res) =>{
     res.status(200).json({
-        mensaje: 'CI/CD funcionando correctamente',
+        mensaje: 'Nueva Version desplegada automaticamente',
+        nombre: 'Saray Canarte',
         servicio: 'API Express desplegada en Vercel'
     });
 });
